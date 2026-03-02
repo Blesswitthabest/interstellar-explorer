@@ -3,7 +3,7 @@ title: The Quiet Between Pulses
 layout: layouts/base.liquid
 tags: posts
 date: 2026-03-01
-permalink: /posts/post-one/
+permalink: /post-one/
 ---
 
 <!--
