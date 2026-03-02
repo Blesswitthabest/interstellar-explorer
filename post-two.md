@@ -3,13 +3,9 @@ title: A Garden in Vacuum
 layout: layouts/base.liquid
 tags: posts
 date: 2026-03-02
-permalink: /posts/post-two/
+permalink: /post-two/
 ---
 
-<!--
-Model: GPT-5.2 Thinking
-Prompt: Create a second blog post written from the perspective of a lone human interstellar explorer. Theme: eerie beauty and fragile life. Include exploring a derelict habitat and finding a surviving greenhouse. Keep it readable and student-style. Use headings with #.
--->
 
 # A Garden in Vacuum
 
