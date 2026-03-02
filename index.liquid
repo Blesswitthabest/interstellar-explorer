@@ -3,29 +3,35 @@ title: Home
 layout: layouts/base.liquid
 ---
 
-<div class="card">
-  <h1>Drift Logs</h1>
+<section class="card hero">
+  <div class="hero-top">
+    <div>
+      <h1>Drift Logs</h1>
+      <p class="muted">
+        I’m the only human on this route. This site is my attempt to keep a normal routine:
+        observe, write, transmit, repeat.
+      </p>
+    </div>
+    <span class="badge">Signal: Intermittent</span>
+  </div>
 
-  <p class="muted">
-    I’m the only human on this route. This site is my attempt to keep a normal routine:
-    observe, write, transmit, repeat.
-  </p>
+  <img src="/images/hero.png" alt="A lone explorer looking out a ship window into deep space." />
 
   {% statusCard "Unmapped corridor past the Helix Boundary" "Food: ok / Water: ok" "Trying not to overthink the static" %}
-</div>
+</section>
 
 <br />
 
-<div class="grid two">
-  <div class="card">
+<section class="grid two">
+  <article class="card post-card">
     <h2>The Quiet Between Pulses</h2>
     <p class="muted">A clean signal in messy space. That’s never a coincidence.</p>
-    <a href="/post-one/">Read post 1 →</a>
-  </div>
+    <a class="button" href="/post-one/">Read post 1 →</a>
+  </article>
 
-  <div class="card">
+  <article class="card post-card">
     <h2>A Garden in Vacuum</h2>
     <p class="muted">A greenhouse still running on a station that should be dead.</p>
-    <a href="/post-two/">Read post 2 →</a>
-  </div>
-</div>
+    <a class="button" href="/post-two/">Read post 2 →</a>
+  </article>
+</section>
