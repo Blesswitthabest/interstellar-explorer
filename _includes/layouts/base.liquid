@@ -6,20 +6,22 @@
     <title>{{ title }} | Drift Logs</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="styles/site.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/styles/site.css" />
   </head>
 
   <body>
     <header class="header">
-      <div class="wrap header-inner">
-        <a class="logo" href="./">Drift Logs</a>
+  <div class="wrap header-inner">
+    <a class="logo" href="{{ site.baseurl }}/">Drift Logs</a>
 
-        <nav class="nav">
-          <a href="./" {% if page.url == "/" %}aria-current="page"{% endif %}>Home</a>
-          <a href="about/" {% if page.url contains "/about" %}aria-current="page"{% endif %}>About</a>
-        </nav>
-      </div>
-    </header>
+    <nav class="nav">
+      <a href="{{ site.baseurl }}/" {% if page.url == "/" %}aria-current="page"{% endif %}>Home</a>
+      <a href="{{ site.baseurl }}/about/" {% if page.url contains "/about" %}aria-current="page"{% endif %}>About</a>
+      <a href="{{ site.baseurl }}/post-one/">Post 1</a>
+      <a href="{{ site.baseurl }}/post-two/">Post 2</a>
+    </nav>
+  </div>
+</header>
 
     <main class="wrap">
       {{ content }}
