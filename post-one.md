@@ -6,10 +6,6 @@ date: 2026-03-01
 permalink: /post-one/
 ---
 
-<!--
-Model: GPT-5.2 Thinking
-Prompt: Create a blog post written from the perspective of a lone human interstellar explorer. Tone: reflective and slightly tense. Include ship details, cosmic imagery, and a subtle mystery. Keep it student-friendly and not overly poetic. Include headings using #.
--->
 
 # The Quiet Between Pulses
 
