@@ -1,7 +1,32 @@
+
 ---
-layout: layout.liquid
-title: 11ty Boilerplate
+title: Home
+layout: layouts/base.liquid
 ---
 
-<h1>Yet Another 11ty <strong>Boilerplate</strong></h1>
-<img alt="pine" src="/images/pine.png" width="50" />
+<div class="card">
+  # Drift Logs
+
+  <p class="muted">
+    I’m the only human on this route. This site is my attempt to keep a normal routine:
+    observe, write, transmit, repeat.
+  </p>
+
+  {% statusCard "Unmapped corridor past the Helix Boundary" "Food: ok / Water: ok" "Trying not to overthink the static" %}
+</div>
+
+<br />
+
+<div class="grid two">
+  <div class="card">
+    ## The Quiet Between Pulses
+    <p class="muted">A clean signal in messy space. That’s never a coincidence.</p>
+    <a href="/posts/post-one/">Read post 1 →</a>
+  </div>
+
+  <div class="card">
+    ## A Garden in Vacuum
+    <p class="muted">A greenhouse still running on a station that should be dead.</p>
+    <a href="/posts/post-two/">Read post 2 →</a>
+  </div>
+</div>
